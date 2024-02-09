@@ -8,10 +8,10 @@
 			"64": "icons/leechblock64.png"
 		},
 		"default_popup": "popup.html",
-		"default_title": "LeechBlock"
+		"default_title": "DoomScrollKiller"
 	},
 
-	"author": "James Anderson",
+	"author": "Christian Price",
 
 	"background": {
 		"scripts": ["common.js", "background.js"]
@@ -19,8 +19,8 @@
 
 	"browser_specific_settings": {
 		"gecko": {
-			"id": "leechblockng@proginosko.com",
-			"strict_min_version": "109.0"
+			"id": , # CHANGE ME
+			"strict_min_version": "" # CHANGE ME
 		}
 	},
 
@@ -35,15 +35,15 @@
 
 	"default_locale": "en",
 
-	"description": "__MSG_extensionDescription__",
+	"description": "__MSG_extensionDescription__", # CHANGE ME
 
-	"homepage_url": "https://www.proginosko.com/leechblock/",
+	"homepage_url": "https://www.proginosko.com/leechblock/", # CHANGE ME
 
 	"host_permissions": [
 		"<all_urls>"
 	],
 
-	"icons": {
+	"icons": { # CHANGE ME
 		"16": "icons/leechblock16.png",
 		"32": "icons/leechblock32.png",
 		"48": "icons/leechblock48.png",
@@ -54,7 +54,7 @@
 
 	"manifest_version": 3,
 
-	"name": "__MSG_extensionName__",
+	"name": "__MSG_extensionName__", # CHANGE ME
 
 	"options_ui": {
 		"page": "options.html",
@@ -72,6 +72,6 @@
 		"webNavigation"
 	],
 
-	"version": "1.6.3"
+	"version": "0.0.1"
 
 }
